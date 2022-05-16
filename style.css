@@ -1,0 +1,117 @@
+body{
+    background-color:#abd5f7; /*very light blue*/
+    color:#000000;
+    font-family: Arial, Helvetica, sans-serif
+    font-size; 1em;
+    font-weight: normal;
+    line-height: 1.8em;
+    margin:0;
+
+    /*I would like to add maybe an image as a background/
+}
+
+h2{
+    color:black;
+    font-size: 1.5em;    
+    font-weight: 500;
+    color-adjust:initial;
+    /*Defaults
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;*/
+}
+
+.container{
+    width: 80%;
+    /* using % instead of 500px or 960px, the sizing is responsive to changing window sizing. */
+    margin:auto;
+}
+.box-1{
+    text-align: center;
+    background-color: rgb(2, 10, 255);
+    color: rgb(255, 255, 255);
+
+    border: 5px rgb(44, 120, 251) solid;
+    border-width: 3 px;
+    border-bottom-width: 10px;
+    padding: 20px;
+}
+.box-2{
+    text-align: center;
+
+    /*border:3px dotted #ccc;*/
+    padding:20px;
+    margin: 20px 0;
+}
+/*.box-2 h2{
+    font-size: 18px;
+    font-weight: 500;
+    Defaults
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}*/
+
+.definitions{
+    border: 5px rgb(255, 251, 0) double;
+    border-radius: 30px;
+    p.double border-style: double;  
+    
+    /*not sure how to add a double border?/
+
+}
+.command {
+    line-height: 1.4em;
+    padding-top: 8px;
+    /*font-size: 2em;*/
+    font-weight: 500;
+    /*margin-top: 300px;*/
+}
+
+.details li::marker{
+    color: black;
+    font-size: 1em;
+    
+}
+.details li{
+    list-style-type: disc;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.4em;
+    padding-top: 0px;
+   /*margin-top: 0px;
+   margin-bottom: 0px;   
+   padding-bottom: 0px;
+   border-top-width: 0px;
+   border-bottom-width: 0px;*/
+}
+.details li:nth-child(4),
+.details li:nth-child(5),
+.details li:nth-child(6),
+.details li:nth-child(7){
+    list-style-type: circle;
+    margin-left: 30px;
+}
+/*.details li:nth-child(5){
+    list-style-type: circle;
+    margin-left: 30px;
+}
+.details li:nth-child(6){
+    list-style-type: circle;
+    margin-left: 30px;
+}
+.details li:nth-child(7){
+    list-style-type: circle;
+    margin-left: 30px;
+}*/
+.details li:last-child{
+    padding-bottom: 1.2em;
+}
