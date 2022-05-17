@@ -62,9 +62,9 @@ h2{
 }*/
 
 .definitions{
-    border: 5px rgb(255, 251, 0) double;
+    border: 10px rgb(255, 251, 0) double;
     border-radius: 30px;
-    p.double border-style: double;  
+    p. double border-style: double;  
     
     /*not sure how to add a double border?/
 
@@ -101,18 +101,7 @@ h2{
     list-style-type: circle;
     margin-left: 30px;
 }
-/*.details li:nth-child(5){
-    list-style-type: circle;
-    margin-left: 30px;
-}
-.details li:nth-child(6){
-    list-style-type: circle;
-    margin-left: 30px;
-}
-.details li:nth-child(7){
-    list-style-type: circle;
-    margin-left: 30px;
-}*/
+
 .details li:last-child{
     padding-bottom: 1.2em;
 }
