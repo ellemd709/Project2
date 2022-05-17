@@ -38,6 +38,7 @@ h2{
     border: 5px rgb(44, 120, 251) solid;
     border-width: 3 px;
     border-bottom-width: 10px;
+    border-radius: 30px;
     padding: 20px;
 }
 .box-2{
