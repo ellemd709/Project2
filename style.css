@@ -1,36 +1,23 @@
-body{
-    background-color:#abd5f7; /*very light blue*/
+body
+{
+    background-color:#abd5f7;
     color:#000000;
-    font-family: Arial, Helvetica, sans-serif
-    font-size; 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
     font-weight: normal;
     line-height: 1.8em;
     margin:0;
-
-    /*I would like to add maybe an image as a background/
+ 
 }
 
-h2{
-    color:black;
-    font-size: 1.5em;    
-    font-weight: 500;
-    color-adjust:initial;
-    /*Defaults
-  display: block;
-  font-size: 1.5em;
-  margin-top: 0.83em;
-  margin-bottom: 0.83em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;*/
-}
-
-.container{
+.container
+{
     width: 80%;
-    /* using % instead of 500px or 960px, the sizing is responsive to changing window sizing. */
     margin:auto;
 }
-.box-1{
+
+.box-1
+{
     text-align: center;
     background-color: rgb(2, 10, 255);
     color: rgb(255, 255, 255);
@@ -41,59 +28,33 @@ h2{
     border-radius: 30px;
     padding: 20px;
 }
-.box-2{
-    text-align: center;
 
-    /*border:3px dotted #ccc;*/
+.box-2
+{
+    text-align: center;
     padding:20px;
     margin: 20px 0;
 }
-/*.box-2 h2{
-    font-size: 18px;
-    font-weight: 500;
-    Defaults
-  display: block;
-  font-size: 1.5em;
-  margin-top: 0.83em;
-  margin-bottom: 0.83em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
-}*/
 
-.definitions{
+
+.definitions
+{
     border: 10px rgb(255, 251, 0) double;
     border-radius: 30px;
-    p. double border-style: double;  
+    border-style: double;  
     
-    /*not sure how to add a double border?/
-
+ 
 }
-.command {
-    line-height: 1.4em;
-    padding-top: 8px;
-    /*font-size: 2em;*/
-    font-weight: 500;
-    /*margin-top: 300px;*/
-}
-
-.details li::marker{
-    color: black;
-    font-size: 1em;
-    
-}
-.details li{
+.details li
+{
     list-style-type: disc;
     font-size: 1em;
     font-weight: 100;
     line-height: 1.4em;
     padding-top: 0px;
-   /*margin-top: 0px;
-   margin-bottom: 0px;   
-   padding-bottom: 0px;
-   border-top-width: 0px;
-   border-bottom-width: 0px;*/
+ 
 }
+
 .details li:nth-child(4),
 .details li:nth-child(5),
 .details li:nth-child(6),
